@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #dde1e7;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -63,7 +67,12 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+li {
+  list-style: none;
 }

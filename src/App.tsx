@@ -2,6 +2,7 @@ import SkillSection from "./sections/SkillSection";
 import DockSection from "./sections/DockSection";
 import { cn } from "./lib/utils";
 import DotPattern from "./components/magicui/dot-pattern";
+import SocialSection from "./sections/SocialSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* Main content */}
       <div className="relative z-10">
         <SkillSection />
+        <SocialSection />
         <DockSection />
       </div>
     </div>

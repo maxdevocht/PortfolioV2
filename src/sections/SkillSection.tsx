@@ -41,29 +41,50 @@ function SkillSection() {
     >
       <div className="flex size-full flex-col max-w-lg max-h-[200px] items-stretch justify-between gap-10">
         <div className="flex flex-row items-center justify-between">
-          <Circle ref={div1Ref}>
+          <Circle
+            ref={div1Ref}
+            className="shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.html />
           </Circle>
-          <Circle ref={div5Ref}>
+          <Circle
+            ref={div5Ref}
+            className="shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.javascript />
           </Circle>
         </div>
         <div className="flex flex-row items-center justify-between">
-          <Circle ref={div2Ref}>
+          <Circle
+            ref={div2Ref}
+            className="shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.css />
           </Circle>
-          <Circle ref={div4Ref} className="size-16">
+          <Circle
+            ref={div4Ref}
+            className="size-16 shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.user />
           </Circle>
-          <Circle ref={div6Ref}>
+          <Circle
+            ref={div6Ref}
+            className="shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.react />
           </Circle>
         </div>
         <div className="flex flex-row items-center justify-between">
-          <Circle ref={div3Ref}>
+          <Circle
+            ref={div3Ref}
+            className="shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.tailwind />
           </Circle>
-          <Circle ref={div7Ref}>
+          <Circle
+            ref={div7Ref}
+            className="shadow-[-3px_-3px_7px_#ffffff73,3px_3px_5px_rgba(94,104,121,0.288)] bg-[#dde1e7]"
+          >
             <Icons.git />
           </Circle>
         </div>
